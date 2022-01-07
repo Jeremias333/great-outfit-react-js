@@ -2,35 +2,44 @@ import logo from './logo.svg';
 import './App.css';
 import {NavbarItem, Navbar} from './components/nav';
 import {Logo} from './components/utils';
+import {CardContainer} from "./components/container";
+import {Card} from "./components/card";
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header"> */}
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-        {/* <h1 style="{color: white}">Ola</h1> */}
-        {/* <p>Hello world</p> */}
-      {/* </header> */}
       <Navbar>
         <Logo src="/logo512.png"></Logo>
-        <NavbarItem href="#" title="Home"/>
-        <NavbarItem href="#" title="Outfit Masculino"/>
-        <NavbarItem href="#" title="Outfit Femenino"/>
-        <NavbarItem href="#" title="Sobre"/>
+        <NavbarItem href="#home" title="Home"/>
+        <NavbarItem href="#outfit-males" title="Outfit Masculino"/>
+        <NavbarItem href="#outfit-famales" title="Outfit Femenino"/>
+        <NavbarItem href="#about" title="Sobre"/>
       </Navbar>
       <main>
-        <p>Hello world</p>
+        <CardContainer>
+            <Card>
+              <p>Olá</p>
+              <p>Olá</p>
+            </Card>
+        </CardContainer>
+        <CardContainer>
+            <Card>
+              <p>Olá</p>
+              <p>Olá</p>
+            </Card>
+        </CardContainer>
+        <CardContainer>
+            <Card>
+              <p>Olá</p>
+              <p>Olá</p>
+            </Card>
+        </CardContainer>
+        <CardContainer>
+            <Card>
+              <p>Olá</p>
+              <p>Olá</p>
+            </Card>
+        </CardContainer>
       </main>
     </div>
   );
