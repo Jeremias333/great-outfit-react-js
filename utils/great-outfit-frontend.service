@@ -1,0 +1,12 @@
+[Unit]
+Description="Great Outfit Front-end"
+
+[Service]
+WorkingDirectory=/opt/great-outfit-react-js/
+ExecStart=serve -s build
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
