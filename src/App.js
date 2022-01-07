@@ -3,7 +3,7 @@ import './App.css';
 import {NavbarItem, Navbar} from './components/nav';
 import {Logo} from './components/utils';
 import {CardContainer} from "./components/container";
-import {Card} from "./components/card";
+import {Card, CardImage, CardBody, CardButton} from "./components/card";
 
 function App() {
   return (
@@ -18,26 +18,44 @@ function App() {
       <main>
         <CardContainer>
             <Card>
-              <p>Olá</p>
-              <p>Olá</p>
+              <CardImage src="/images/FERNVNDX-clothing-blusao-black.jpg"/>
+              <CardBody title="Blusão FERNVNDX" text="Camisa de frio"/>
+              <CardButton href="#blusa" title="Comprar" price="75,99"/>
             </Card>
         </CardContainer>
         <CardContainer>
             <Card>
-              <p>Olá</p>
-              <p>Olá</p>
+              <CardImage src="/images/FERNVNDX-clothing-blusao-black.jpg"/>
+              <CardBody title="Blusão FERNVNDX" text="Camisa de frio"/>
+              <CardButton href="#blusa" title="Comprar" price="75,99"/>
             </Card>
         </CardContainer>
         <CardContainer>
             <Card>
-              <p>Olá</p>
-              <p>Olá</p>
+              <CardImage src="/images/FERNVNDX-clothing-blusao-black.jpg"/>
+              <CardBody title="Blusão FERNVNDX" text="Camisa de frio"/>
+              <CardButton href="#blusa" title="Comprar" price="75,99"/>
             </Card>
         </CardContainer>
         <CardContainer>
             <Card>
-              <p>Olá</p>
-              <p>Olá</p>
+              <CardImage src="/images/FERNVNDX-clothing-blusao-black.jpg"/>
+              <CardBody title="Blusão FERNVNDX" text="Camisa de frio"/>
+              <CardButton href="#blusa" title="Comprar" price="75,99"/>
+            </Card>
+        </CardContainer>
+        <CardContainer>
+            <Card>
+              <CardImage src="/images/FERNVNDX-clothing-blusao-black.jpg"/>
+              <CardBody title="Blusão FERNVNDX" text="Camisa de frio"/>
+              <CardButton href="#blusa" title="Comprar" price="75,99"/>
+            </Card>
+        </CardContainer>
+        <CardContainer>
+            <Card>
+              <CardImage src="/images/FERNVNDX-clothing-blusao-black.jpg"/>
+              <CardBody title="Blusão FERNVNDX" text="Camisa de frio"/>
+              <CardButton href="#blusa" title="Comprar" price="75,99"/>
             </Card>
         </CardContainer>
       </main>

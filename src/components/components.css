@@ -32,9 +32,65 @@
     width: 100%;
     display: table;
     background-color: #FFF;
-    border-radius: 8px;
-    box-shadow: 8px, 8px 12px rgba(0,0,0,0.05);
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgb(214, 207, 207);
     padding:15px;
     box-sizing: border-box;
 }
 
+.card-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    /*sempre colocar display: block nas imagens*/
+    display: block;
+    /* margin: 15px auto; */
+}
+
+.card-body{
+    margin-top: 12px;
+    text-align: center;
+}
+
+.card-body h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #034e6e;
+    margin: 0;
+}
+
+.card-body p {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4a4a4a;
+    font-weight: 800;
+    margin: 15px 0 10px 0px;
+}
+
+.card-footer {
+    width: 100%;
+    display: table;
+}
+
+.button {
+    width: auto;
+    height: 40px;
+    display: inline-block;
+    background-color: #397de4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    margin-top: 12px;
+    padding: 0 30px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
